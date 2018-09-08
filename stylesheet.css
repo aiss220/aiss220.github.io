@@ -632,21 +632,32 @@ footer {
 		    position: absolute;
 		    width: 100%;
 		}
+
 		.gnav__menu__item{
-			width: 70%;
-		    margin: 30px 0;
+			width: 100%;
+		    margin:20px 0;
+			text-align: center;
 		}
 		.gnav__menu__item a{
 		    color: #552E31;
 		    font-size: 1.2em;
-		    padding: 40px;
-		    text-decoration: none;
+		    padding: 30px 10%;
 		    transition: .5s;
 		}
 		.gnav__menu__item a:hover{
 		    color: #91D2E5;
 		}
-			
+
+		nav li a.btn_reserve {
+			display: flex;
+		    justify-content: center;
+			width: 50%;
+			border: solid #91D2E5 1px;
+			border-radius: 3px;
+			color: #91D2E5;
+			margin:0 12.5%;
+			}	
+
 		/* ========================================
 		    top main images
 		========================================= */
