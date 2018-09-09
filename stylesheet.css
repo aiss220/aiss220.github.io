@@ -383,27 +383,7 @@ table.table01 tbody td {
 	padding:2px 15px;
 	vertical-align:top;
 }
- 
-@media screen and (max-width: 640px) {
-table.table01 thead {
-	display:none;
-}
-table.table01 tbody th {
-	display:block;
-}
-table.table01 tbody td {
-	display:block;
-}
-table.table01 tbody td::before {
-	content: attr(label);
-	float: left;
-	clear:both;
-	font-weight:bold;
-}
-table.table01 tbody td p {
-	padding-left:6em;
-}
-}
+
 
 .push-menu {
 	display: block;
@@ -783,7 +763,8 @@ footer {
 			font-size: 1.3rem;
 			letter-spacing: 0.3rem;
 			text-align: center;
-			margin: 15px 0;
+			margin-top:0;
+			margin-bottom: 20px;
 		}
 
 		.contents {
@@ -836,7 +817,7 @@ footer {
 		========================================= */
 
 		.staff {
-			width: 100%;
+			width: 90%;
 			margin: 0 auto;
 			display: flex;
 		}
@@ -878,7 +859,7 @@ footer {
 
 		.member section p {
 			font-size: 0.6rem;
-			line-height: 1.6em;
+			line-height: 1.4em;
 			letter-spacing: 0.15rem;
 			margin-top: 10px;
 		}
@@ -887,6 +868,113 @@ footer {
 			display: block;
 			height: 500px;
 		}
+
+		/* ========================================
+		    menu
+		========================================= 
+
+
+
+
+		/* ========================================
+		    special
+		========================================= */
+
+		.special_discription {
+			width: 90%;
+			margin: 0 auto 50px auto;
+			font-size: 0.75rem;
+			line-height: 2em;
+			letter-spacing: 0.2rem;
+		}
+
+
+		.special_contents {
+			width: 100%;
+			height: 556px;
+			margin: 0 auto;
+			background-image: url(img/menu_bg_right.png);
+			padding: 120px 0;
+			text-align: center;
+		}
+
+		.special_visual {
+			width: 100%;
+			margin: 0 auto;
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: space-around;
+			align-items: center;
+
+		}
+
+
+		.special_logo {
+			clear: left;
+			margin: 0 10%;
+			flex-grow: 1;
+		}
+
+		.special_logo img {
+			width: 90%;
+		}
+
+
+		.special_pict   {
+			clear: left;
+			flex-grow: 5;
+		}
+
+		.special_pict img {
+			width: 90%;
+		}
+
+		.special_contents section {
+			margin-top: 50px; 
+		}
+
+		.special_contents h4 {
+			font-family: Copperplate, "Copperplate Gothic Light";
+			font-size: 1.2rem;
+			color: #91D2E5;
+			letter-spacing: 0.3rem;
+			margin-bottom: 20px; 
+		}
+
+		.special_contents p {
+			font-size: 0.75rem;
+			letter-spacing: 0.2rem;
+			color: #552E31;
+		}
+
+
+
+
+
+
+
+		/* ========================================
+		    access
+		========================================= */
+
+
+		.map {
+			position: relative;
+			margin:0 auto 40px auto;
+			padding-top: 100%;
+			border-radius: 3px;
+			}
+
+		.map iframe,
+		.map object,
+		.map embed {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
 
 		/* ========================================
 		    footer
