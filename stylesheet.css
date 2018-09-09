@@ -229,8 +229,6 @@ nav li a.btn_reserve:hover {
 }
 
 .discription-right img  {
-	top: 50%;
-	right: 50%
 	width: 60%;
 }
 
@@ -689,7 +687,7 @@ footer {
 		.slide {
 		  position   : relative;
 		  overflow   : hidden;
-		  height     : 50vh; 
+		  height     : 30vh; 
 		  padding-bottom: 0;
 		}
 		 
