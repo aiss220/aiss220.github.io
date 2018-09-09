@@ -871,10 +871,23 @@ footer {
 
 		/* ========================================
 		    menu
-		========================================= 
+		========================================= */
 
+		table.table01 {
+		width:60%;
+		}
+		table.table01 thead th {
+			padding:25px 0px 0px 0px;
+		}
 
+		table.table01 tbody th {
+		color:#552E31;
+		padding:2px 0px;
+		}	
 
+		table.table01 tbody td {
+		padding:2px 0px;
+		}
 
 		/* ========================================
 		    special
