@@ -221,6 +221,9 @@ nav li a.btn_reserve:hover {
 	font-size: 0.75rem;
 	line-height: 2em;
 	letter-spacing: 0.2rem;
+	opacity: 0;
+	 -webkit-animation: example 1.0s ease 1.0s 1 forwards;
+  	animation: example 1.0s ease 1.0s 1 forwards;
 }
 
 
@@ -263,6 +266,9 @@ h2.title {
 	height: 40vh;
 	float: left;
 	margin-bottom: 100px;
+	opacity: 0; 
+	 -webkit-animation: example 0.5s ease 0.5s 1 forwards;
+  	animation: example 0.5s ease 0.5s 1 forwards;
 }
 
 .left-img img {
@@ -293,6 +299,21 @@ h2.title {
 	background-color: rgba(145,210,229,0.1);
 	border-radius: 3px;
 	color: #552E31;
+	opacity: 0; 
+	-webkit-animation: example 0.5s ease 1.5s 1 forwards;
+	animation: example 0.5s ease 1.0s 1 forwards;
+
+}
+
+@-webkit-keyframes example {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes example {
+  100% {
+    opacity: 1;
+  }
 }
 
 .right p {
@@ -303,12 +324,17 @@ h2.title {
     about staff
 ========================================= */
 
+
 .staff {
 	width: 80%;
 	margin: 0 auto;	
 	display: flex;
 	flex-wrap: wrap;
+	opacity: 0; 
+	-webkit-animation: example 1.5s ease 0.5s 1 forwards;
+  	animation: example 0.5s ease 1.5s 1 forwards;
 }
+
 
 .member  {
 	width:  30%;
@@ -470,7 +496,10 @@ table.table01 tbody td {
 	position: relative;
 	margin:0 auto 40px auto;
 	padding-top: 40%;
-	border-radius: 3px;
+	border-radius: 3px;	
+	opacity: 0; 
+	-webkit-animation: example 1.5s ease 0.5s 1 forwards;
+  	animation: example 0.5s ease 1.5s 1 forwards;
 	}
 
 .map iframe,
