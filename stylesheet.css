@@ -218,14 +218,21 @@ nav li a.btn_reserve:hover {
 	font-size: 0.75rem;
 	line-height: 2em;
 	letter-spacing: 0.2rem;
-	opacity: 0;
-	 -webkit-animation: example 1.0s ease 1.0s 1 forwards;
-  	animation: example 1.0s ease 1.0s 1 forwards;
+	
 }
 
 
 .discription-left {
 	color: #552E31;
+	opacity: 0;
+	-webkit-animation: example 1.0s ease 1.0s 1 forwards;
+  	animation: example 1.0s ease 1.0s 1 forwards;
+}
+
+.discription-right {
+	opacity: 0;
+	-webkit-animation: example 1.5s ease 1.5s 1 forwards;
+  	animation: example 1.5s ease 1.5s 1 forwards;
 }
 
 .discription-right img  {
