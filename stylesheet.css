@@ -24,7 +24,7 @@ time, mark, audio, video {
     font-size: 100%;
     vertical-align: baseline;
 	color: #552E31;
-	transition: all 0.2s;
+	transition: all 0.4s;
 }
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -110,9 +110,6 @@ nav li a {
 
 nav li a:hover {
 	color: #91D2E5;	
-	border-bottom:1px solid #91D2E5;
-	padding-bottom:4px; 
-
 }
 
 nav li a.page {
