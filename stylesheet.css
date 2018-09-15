@@ -453,8 +453,9 @@ table.table01 tbody td {
 }
 .special_logo {
 	float: left;
-	margin: 0 10%;
+	margin-top: 0 10%;
 	flex-grow: 1;
+
 }
 
 .special_pict   {
@@ -977,7 +978,7 @@ footer {
 		.special_contents {
 			width: 70%;
 			height: auto;
-			margin: 0 auto;
+			margin: 0 auto 80px auto;
 			background-image: none;
 			padding: 0;
 			text-align: center;
@@ -996,18 +997,18 @@ footer {
 
 		.special_logo {
 			clear: left;
-			margin: 0;
-			flex-grow: 1;
+			margin: 30px auto 10px auto;
+			order: 2;
 		}
 
 		.special_logo img {
-			width: 60%;
+			width: 80%;
 		}
 
 
 		.special_pict   {
 			clear: left;
-			flex-grow: 1;
+			order: 1;
 		}
 
 		.special_pict img {
@@ -1015,7 +1016,7 @@ footer {
 		}
 
 		.special_contents section {
-			margin: 50px 5% 0 5%; 
+			margin: 20px 5% 0 5%; 
 			width: 90%;
 			text-align: left;
 		}
