@@ -135,6 +135,9 @@ nav li a.btn_reserve:hover {
 }
 
 
+nav li i.tel {
+	display: none;
+}
 
 
 /* ========================================
@@ -679,6 +682,29 @@ footer {
 			color: #91D2E5;
 			margin:0 12.5%;
 			}	
+
+		nav li i.tel {		
+			display: block;	
+			color: #91D2E5;
+			letter-spacing: 0.8rem;
+		}
+
+		/*a.tel {
+			display: block;
+		    position: fixed;
+		    right: 80px;
+		    top: 17px;	 
+		    border: solid #552E31 1px;   
+		    color: #552E31;
+		    padding: 8px;
+		    background-color: rgba(145,210,229,0.0);
+		    font-size: 0.7em;
+		    letter-spacing: 0.3em;
+			font-family: Copperplate, "Copperplate Gothic Light";
+		    text-decoration: none;
+		    }*/
+
+		
 
 		/* ========================================
 		    top main images
